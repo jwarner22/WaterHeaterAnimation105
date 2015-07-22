@@ -36,8 +36,7 @@ j = i + 2
         If HPflow = "" Then
         ActiveSheet.Shapes.Range("Straight Arrow Connector 17").Select
         Selection.ShapeRange.Line.Visible = False
-        ActiveSheet.Shapes.Range("Straight Arrow Connector 17").Select
-        Selection.ShapeRange.Line.Visible = True
+        
         Else
         ActiveSheet.Shapes.Range("Straight Arrow Connector 17").Select
         Selection.ShapeRange.Line.Visible = True
